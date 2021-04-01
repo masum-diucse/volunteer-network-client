@@ -24,7 +24,7 @@ const AddEvents = () => {
             name:data.name,
             imageURL:imageUrl
         };
-        const url='http://localhost:5000/addEvent';
+        const url='https://volunteer-network-newserver.herokuapp.com/addEvent';
         fetch(url,{
             method:"POST",
             headers:{
